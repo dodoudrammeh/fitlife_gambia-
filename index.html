@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FitLife Gambia</title>
+    <link rel="stylesheet" href="css/stlye.css" />
+    <link rel="stylesheet" href="css/utilitys.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <h6 class="small-size">
+              Fit<span style="color: var(--color-primary)">Life</span> Gambia
+            </h6>
+          </div>
+
+          <nav id="navmenu">
+            <ul>
+              <li><a href="#home" class="active">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="Services.html">Services</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Home Section -->
+      <div class="contact-hero-img">
+        <div class="container">
+          <div class="hero">
+            <h1>Transform Your Fitness Journey</h1>
+            <p>
+              Modern equipment, expert trainers, and supportive community awaits
+              you
+            </p>
+            <button
+              style="text-align: left"
+              class="btn btn-primary"
+              onclick="showSection('contact')"
+            >
+              Get Started
+            </button>
+            <!-- counter -->
+            <div class="counters" style="margin-bottom: 12rem">
+              <div>
+                <span class="counter" data-target="1200">0</span>+ Members
+              </div>
+              <div>
+                <span class="counter" data-target="25">0</span> Trainers
+              </div>
+              <div>
+                <span class="counter" data-target="50">0</span> Programs
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section id="home">
+        <div class="container">
+          <h2 class="text-center" style="margin-top: var(--spacing-xl)">
+            why choose FitLife
+          </h2>
+          <p class="text-center">
+            everything you need for your fitness journey under onr roof
+          </p>
+          <div class="cards-grid">
+            <div class="card feature-card">
+              <h3>State-of-the-Art Equipment</h3>
+              <p>
+                Latest fitness technology to help you achieve your goals faster
+                and more effectively.
+              </p>
+            </div>
+            <div class="card feature-card">
+              <h3>Professional Trainers</h3>
+              <p>
+                Certified experts ready to guide your workout and create
+                personalized training plans.
+              </p>
+            </div>
+            <div class="card feature-card">
+              <h3>Community Support</h3>
+              <p>
+                Join a vibrant community of fitness enthusiasts supporting each
+                other's journey.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="full-conti">
+        <div class="container">
+          <h2 class="text-center" style="margin-top: var(--spacing-xl)">
+            Popular Programs
+          </h2>
+          <p class="text-center">
+            Find the perfect workout for your fitness goals
+          </p>
+          <div class="cards-grid" style="text-transform: capitalize">
+            <div class="card">
+              <img
+                style="
+                  width: 100%;
+                  border-top-right-radius: var(--border-radius);
+                  border-top-left-radius: var(--border-radius);
+                  height: 200px;
+                "
+                src="assest/images/group-fitness.jpg"
+                alt="group-fitness"
+              />
+              <h2>group classes</h2>
+              <p>
+                Join our Energetic zumba, aerobic , and Boxing classes. Fun ways
+                to burn calories with a nsupportive group
+              </p>
+            </div>
+
+            <div class="card">
+              <img
+                src="assest/images/weight-training.jpg"
+                alt="group pic"
+                style="
+                  width: 100%;
+                  border-top-right-radius: var(--border-radius);
+                  border-top-left-radius: var(--border-radius);
+                  height: 200px;
+                "
+              />
+              <h3>weight Training</h3>
+              <p>
+                build strength and muscle with our comprehensive weight training
+                program. suitable for beginner to advanced lifers.
+              </p>
+              <p
+                style="
+                  font-weight: 600;
+                  color: var(--color-primary);
+                  margin-top: var(--spacing-md);
+                "
+              >
+                Starts: Next month
+              </p>
+            </div>
+            <div class="card">
+              <img
+                src="assest/images/personal-training.jpg"
+                alt="group pic"
+                style="
+                  width: 100%;
+                  border-top-right-radius: var(--border-radius);
+                  border-top-left-radius: var(--border-radius);
+                  height: 200px;
+                "
+              />
+              <h3>personal Training</h3>
+              <p>
+                One-on-one session with certified trainers. Get customers
+                Workout and nutrition guidance
+              </p>
+              <p
+                style="
+                  font-weight: 600;
+                  color: var(--color-primary);
+                  margin-top: var(--spacing-md);
+                "
+              >
+                Starts: Next week
+              </p>
+            </div>
+          </div>
+
+          <div
+            style="justify-content: center; align-items: center; display: flex"
+          >
+            <button
+              style="
+                background-color: var(--color-accent);
+                color: var(--color-dark);
+                text-transform: capitalize;
+              "
+              class="btn text-center btn-primary"
+              onclick="showSection('contact')"
+            >
+              view all programs
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- last  -->
+      <!-- Testimonials Section -->
+      <section class="testimonials">
+        <div class="container">
+          <h2 class="text-center">What Our Members Say</h2>
+          <p class="text-center">
+            Real stories from people who transformed their lives at FitLife
+            Gambia
+          </p>
+
+          <div
+            class="container testimonials-grid"
+            style="
+              margin-top: 3rem;
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+              gap: 2rem;
+            "
+          >
+            <!-- Testimonial 1 -->
+            <div
+              class="testimonial-card"
+              style="
+                background: #fff;
+                padding: 2rem;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                text-align: center;
+              "
+            >
+              <img
+                src="assest/testimonial/01.png"
+                alt="Mariama J."
+                style="
+                  width: 80px;
+                  height: 80px;
+                  border-radius: 50%;
+                  object-fit: cover;
+                  margin-bottom: 1rem;
+                "
+              />
+              <p class="testimonial-text">
+                <q
+                  >itLife Gambia completely changed my lifestyle. The trainers
+                  are very supportive and the environment keeps me motivated
+                  every day.</q
+                >
+              </p>
+              <div class="testimonial-user">
+                <strong>— Mariama Jammeh.</strong><br />
+                <span>Fitness Member</span>
+              </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div
+              class="testimonial-card"
+              style="
+                background: #fff;
+                padding: 2rem;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                text-align: center;
+              "
+            >
+              <img
+                src="assest/testimonial/02.png"
+                alt="Lamin K."
+                style="
+                  width: 80px;
+                  height: 80px;
+                  border-radius: 50%;
+                  object-fit: cover;
+                  margin-bottom: 1rem;
+                "
+              />
+              <p class="testimonial-text">
+                <q
+                  >I joined for weight loss, but I gained confidence and
+                  discipline. Best gym in Kololi, no doubt.</q
+                >
+              </p>
+              <div class="testimonial-user">
+                <strong>— Jainaba camara.</strong><br />
+                <span>Weight Training</span>
+              </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div
+              class="testimonial-card"
+              style="
+                background: #fff;
+                padding: 2rem;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                text-align: center;
+              "
+            >
+              <img
+                src="assest/testimonial/03.png"
+                alt="Awa S."
+                style="
+                  width: 80px;
+                  height: 80px;
+                  border-radius: 50%;
+                  object-fit: cover;
+                  margin-bottom: 1rem;
+                "
+              />
+              <p class="testimonial-text">
+                <q
+                  >The boxing and group classes are amazing. You feel like
+                  family here, not just another member.</q
+                >
+              </p>
+              <div class="testimonial-user">
+                <strong>— Yaya Drammeh.</strong><br />
+                <span>Boxing Program</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h4>Fitlife Gambia</h4>
+            <ul class="hover">
+              we make fitness accessible to everyone. FitLife Gambia has become
+              the premier fitness destination in Kololi.
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">contact</a></li>
+              <li><a href="gallery.html">gallery</a></li>
+              <li><a href="Services.html">Services</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#services">Personal Training</a></li>
+              <li><a href="contact.html">Questions</a></li>
+              <li><a href="about.html">story</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Follow Us</h4>
+            <ul>
+              <li><a href="#" target="_blank">Facebook</a></li>
+              <li><a href="#" target="_blank">Instagram</a></li>
+              <li><a href="#" target="_blank">WhatsApp</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 FitLife Gambia. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
