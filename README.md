@@ -1,7 +1,3 @@
-Here’s a polished GitHub-style description including that detail:
-
----
-
 # 🏃‍♂️ FitLife_Gambia
 
 This is my **first project** built when I joined **Jasseh Code Camp (JCC)**. The project was created following a roadmap designed by the founder of JCC, **Omar**, to guide me through my first steps in web development.
